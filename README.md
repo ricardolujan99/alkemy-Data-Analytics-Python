@@ -13,11 +13,11 @@
 
 3. teniendo el entorno virtual ya creado tenemos que activarlo, para lograr hay que ejecutar los siguientes comandos:
  
- ``
-    cd ./alkemy/scripts
-    activate
-    cd ../
-``
+ 
+    ``cd ./alkemy/scripts``
+    ``activate``
+    ``cd ../``
+
     
 4. con el entorno virtual ya activado es necesario instalar todas los paquetes necesarios para que el proyecto funcione, para poder instalarlos se debe ejectuar el siguiente comando:
   
