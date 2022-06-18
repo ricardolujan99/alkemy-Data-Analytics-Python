@@ -33,7 +33,7 @@
 
  - utilizar postgresql con docker :
  
-  https://www.youtube.com/watch?v=0ACd1_mo-dI
+   https://www.youtube.com/watch?v=0ACd1_mo-dI
   
 6. taniendo ya postgresql funcionando ya podemos ejecutar el proyecto para lograrlo hay que ejecutar el siguiente comando:
 
