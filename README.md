@@ -1,5 +1,6 @@
 # alkemy-Data-Analytics-Python
 
+Esta proyecto corresponde al challenge de data analytics + paython de https://www.alkemy.org/ 
 
 # guia para hacer funcionar el proyecto:
 
@@ -7,7 +8,7 @@
  
     ```pip install virtualenv```
 
-2. una vez se haya terminado la instalacion de virtualenv, ejecutar el siguiente comando: 
+2. una vez se haya terminado la instalacion de virtualenv, procederemos a crear un entorno virtual para lograrlo ejecutar el siguiente comando: 
  
     ```virtualenv alkemy```
 
@@ -21,7 +22,7 @@
     ```
 
     
-4. con el entorno virtual ya activado es necesario instalar todas los paquetes necesarios para que el proyecto funcione, para poder instalarlos se debe ejectuar el siguiente comando:
+4. con el entorno virtual ya activado es necesario instalar todas los paquetes requerido para que el proyecto funcione, para poder instalarlos se debe ejectuar el siguiente comando:
   
    ```pip install -m requeriments.txt```
     
@@ -35,11 +36,11 @@
  
    https://www.youtube.com/watch?v=0ACd1_mo-dI
   
-6. taniendo ya postgresql funcionando ya podemos ejecutar el proyecto para lograrlo hay que ejecutar el siguiente comando:
+6. taniendo ya postgresql funcionando ya podemos ejecutar el proyecto, para lograrlo hay que ejecutar el siguiente comando:
 
    ```py procesar_datos.py```
    
-7. En casi de ser necesario configurar el nombre de usuario o contraseña de postgresql lo podemos hacer desde el siguiente archivo:
+7. En caso de ser necesario configurar el nombre de usuario o contraseña de postgresql lo podemos hacer desde el siguiente archivo:
   
   
    ```settings.ini```
