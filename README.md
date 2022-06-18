@@ -36,5 +36,7 @@
 6. taniendo ya postgresql funcionando ya podemos ejecutar el proyecto para lograrlo hay que ejecutar el siguiente comando:
 
    ```py procesar_datos.py```
-  
+   
+7. En casi de ser necesario configurar el nombre de usuario o contraseña de postgresql lo podemos hacer desde el siguiente archivo:
+   ```py seting.ini```
   
