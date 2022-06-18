@@ -5,7 +5,7 @@
 
 1. para comenzar asumiendo de que ya tiene instalado en su sistema python y pip el primer paso sera ejecutar el siguiente comando:
  
-``pip install virtualenv
+``pip install virtualenv``
 
 2. una vez se haya terminado la instalacion de virtualenv, ejecutar el siguiente comando: 
  
