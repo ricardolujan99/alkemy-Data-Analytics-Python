@@ -42,5 +42,5 @@
 7. En casi de ser necesario configurar el nombre de usuario o contraseña de postgresql lo podemos hacer desde el siguiente archivo:
   
   
-   ```py settings.ini```
+   ```settings.ini```
   
