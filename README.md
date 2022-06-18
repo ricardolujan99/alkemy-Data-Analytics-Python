@@ -35,6 +35,6 @@
   
 6. taniendo ya postgresql funcionando ya podemos ejecutar el proyecto para lograrlo hay que ejecutar el siguiente comando:
 
-  ` ``py procesar_datos.py```
+   ```py procesar_datos.py```
   
   
