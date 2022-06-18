@@ -38,5 +38,5 @@
    ```py procesar_datos.py```
    
 7. En casi de ser necesario configurar el nombre de usuario o contraseña de postgresql lo podemos hacer desde el siguiente archivo:
-   ```py seting.ini```
+   ```py settings.ini```
   
