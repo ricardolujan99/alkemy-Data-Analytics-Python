@@ -3,6 +3,8 @@ import os
 import datetime
 import locale
 import logging
+
+#Se establece la localizacion para que los meses aparezcan en español
 locale.setlocale(locale.LC_ALL, 'esp_esp')
 
 def downloads_csv():
@@ -34,8 +36,8 @@ def downloads_csv():
         try:
             os.mkdir(folder)
         except OSError:
-            print("Error al crear el directorio {} ".format(folder) )
-            logging.warning(current_time + 'Error al crear el directorio : {}'.format(folder))
+            print("El directorio {} ya existe".format(folder) )
+            logging.warning(current_time + 'El directorio {} ya existe'.format(folder))
         else:
             print("Se ha creado el directorio: {} ".format(folder))
             logging.info(current_time + 'Se a creado el directorio : {}'.format(folder))
