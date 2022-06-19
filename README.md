@@ -26,7 +26,7 @@ Esta proyecto corresponde al challenge de data analytics + python de https://www
   
    ```pip install -m requeriments.txt```
     
-5. taniendo el entorno virtual activado y los paquetes necesarios ya instalados el siguiente paso antes de poder ejecutar el proyecto es el de instalar el servidor postgresql para la base de datos, esto lo podemos lograr de dos formas, una es instalando el servidor postgresql en nuestro sistema y la otra es utilizando docker, a continuacion en forma de guia se adjuntan dos videos tutoriales: 
+5. taniendo los paquetes necesarios ya instalados el siguiente paso antes de poder ejecutar el proyecto es el de instalar el servidor postgresql para la base de datos, esto lo podemos lograr de dos formas, una es instalando el servidor postgresql en nuestro sistema y la otra es utilizando docker, a continuacion en forma de guia se adjuntan dos videos tutoriales: 
     
  - instalar postgresql en su sistema:
  
