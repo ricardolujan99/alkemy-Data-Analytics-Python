@@ -1,6 +1,6 @@
 # alkemy-Data-Analytics-Python
 
-Esta proyecto corresponde al challenge de data analytics + paython de https://www.alkemy.org/ 
+Esta proyecto corresponde al challenge de data analytics + python de https://www.alkemy.org/ 
 
 # guia para hacer funcionar el proyecto:
 
