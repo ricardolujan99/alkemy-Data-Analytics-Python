@@ -8,7 +8,7 @@ Esta proyecto corresponde al challenge de data analytics + paython de https://ww
  
     ```pip install virtualenv```
 
-2. una vez se haya terminado la instalacion de virtualenv, procederemos a crear un entorno virtual para lograrlo ejecutar el siguiente comando: 
+2. una vez se haya terminado la instalacion de virtualenv, procederemos a crear un entorno virtual para lograrlo debe ejecutar el siguiente comando: 
  
     ```virtualenv alkemy```
 
