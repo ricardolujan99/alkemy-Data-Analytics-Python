@@ -19,9 +19,10 @@ def downloads_csv():
 
     #se descargan los archivos csv
     try:
-        CONTENT_CSV_MUSEOS = requests.get(URL_CSV_MUSEOS).content
-        CONTENT_CSV_SALAS_DE_CINE = requests.get(URL_CSV_SALAS_DE_CINE).content
-        CONTENT_CSV_BIBLIOTECAS_POPULARES = requests.get(URL_CSV_BIBLIOTECAS_POPULARES).content
+        
+        comtemt_csv_museos = requests.get(URL_CSV_MUSEOS).content
+        content_csv_salas_de_cine = requests.get(URL_CSV_SALAS_DE_CINE).content
+        content_csv_bibliotecas_populares = requests.get(URL_CSV_BIBLIOTECAS_POPULARES).content
     except requests.ConnectionError:
         print('Error en la conexion a internet')
     except requests.exceptions.HTTPError:
@@ -66,18 +67,18 @@ def downloads_csv():
     route_bibliotecas_populares = folder_bibliotecas_populares + file_bibliotecas_populares
 
     #se crean los archivos csv
-    CSV_FILE_MUSEOS =  open(route_file_museos, 'wb')
-    CSV_FILE_SALAS_DE_CINE =  open(route_file_salas_de_cine, 'wb')
-    CSV_FILE_BIBLIOTECAS_POPULARES =  open(route_bibliotecas_populares, 'wb')
+    csv_file_museos =  open(route_file_museos, 'wb')
+    csv_file_salas_de_cine =  open(route_file_salas_de_cine, 'wb')
+    csv_file_bibliotecas_populares =  open(route_bibliotecas_populares, 'wb')
     
     #se escriben los datos en los archivos csv
-    CSV_FILE_MUSEOS.write(CONTENT_CSV_MUSEOS)
-    CSV_FILE_SALAS_DE_CINE.write(CONTENT_CSV_SALAS_DE_CINE)
-    CSV_FILE_BIBLIOTECAS_POPULARES.write(CONTENT_CSV_BIBLIOTECAS_POPULARES)
+    csv_file_museos.write(comtemt_csv_museos)
+    csv_file_salas_de_cine.write(content_csv_salas_de_cine)
+    csv_file_bibliotecas_populares.write(content_csv_bibliotecas_populares)
 
     #se cierran los archivos csv
-    CSV_FILE_MUSEOS.close()
-    CSV_FILE_SALAS_DE_CINE.close()
-    CSV_FILE_BIBLIOTECAS_POPULARES.close()
+    csv_file_museos.close()
+    csv_file_salas_de_cine.close()
+    csv_file_bibliotecas_populares.close()
 
     return route_file_museos, route_file_salas_de_cine, route_bibliotecas_populares
