@@ -21,5 +21,6 @@ def create_db():
             print('se a creado la base de datos con exito!')
             logging.info(current_time+"se a creado la base de datos")
         except exc.SQLAlchemyError:
-            logging.error('Error al crear la base de datos')
-            print(current_time+"Error al crear la base de datos") 
+            print("Error al crear la base de datos") 
+            logging.error(current_time+'Error al crear la base de datos')
+            

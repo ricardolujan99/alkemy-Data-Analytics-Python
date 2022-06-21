@@ -7,26 +7,27 @@ CREATE TABLE tabla_completa (
     Localidad text,
     Nombre text,
     Domicilio text,
-    Codigo_postal text,
-    Número_de_teléfono text,
+    "Codigo postal" text,
+    "Número de teléfono" integer,
     Mail text,
     Web text,
-    Fecha_y_hora text
+    "Fecha y hora registro" timestamp      
     );
 
 CREATE TABLE datos_salas_de_cine (
     Provincia text,
-    Pantallas text,
-    Butacas text,
-    espacio_INCAA text,
-    Fecha_y_hora text
+    Pantallas integer,
+    Butacas integer,
+    "espacio INCAA" integer,
+    "Fecha y hora registro" timestamp      
 );
 
  
 CREATE TABLE registros_totoales(
-    Total_por_categoria text,
-    Totoal_por_fuente text,
-    Provincia_y_categoria text,
-    Fecha_y_hora text
+    "Index" text,
+    "Total por categoria" integer,
+    "Totoal por fuente" integer,
+    "Provincia y categoria" integer,
+    "Fecha y hora registro" timestamp      
 
 );

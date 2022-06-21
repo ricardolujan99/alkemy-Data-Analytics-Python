@@ -1,6 +1,6 @@
 pandas 
 sqlalchemy 
 sqlalchemy_utils 
-decouple
+python-decouple
 requests
-logging
+psycopg2

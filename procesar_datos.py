@@ -97,9 +97,9 @@ df_completo = df_completo[[
 
 
 #se agrega una columna con la fecha y hora actual 
-df_salas_de_cine_cantidades['date'] = current_time
-registros_totoales['date'] = current_time
-df_completo['date'] = current_time
+df_salas_de_cine_cantidades['Fecha y hora registro'] = current_time
+registros_totoales['Fecha y hora registro'] = current_time
+df_completo['Fecha y hora registro'] = current_time
 
 
 #se cargan los datos a la base de datos
