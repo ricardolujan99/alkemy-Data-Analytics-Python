@@ -2,7 +2,7 @@
 
 Esta proyecto corresponde al challenge de data analytics + python de https://www.alkemy.org/ 
 
-# guia para hacer funcionar el proyecto:
+# Guia para hacer funcionar el proyecto:
 
 1. para comenzar asumiendo de que ya tiene instalado en su sistema python y pip el primer paso sera ejecutar el siguiente comando:
  
