@@ -22,7 +22,6 @@ def downloads_csv():
 
     #se descargan los archivos csv
     try:
-        
         comtemt_csv_museos = requests.get(URL_CSV_MUSEOS).content
         content_csv_salas_de_cine = requests.get(URL_CSV_SALAS_DE_CINE).content
         content_csv_bibliotecas_populares = requests.get(URL_CSV_BIBLIOTECAS_POPULARES).content
