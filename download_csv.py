@@ -3,6 +3,7 @@ import os
 import datetime
 import locale
 import logging
+from decouple import config
 
 #Se establece la localizacion para que los meses aparezcan en español
 locale.setlocale(locale.LC_ALL, 'esp_esp')
@@ -13,11 +14,11 @@ def downloads_csv():
     
     # se crea una variavle que contiene la fecha y hora actual
     current_time =  datetime.datetime.now().strftime('[%d-%m-%Y %H:%M] ')
-    
+ 
     #se establecen la url de cada fuente de datos
-    URL_CSV_MUSEOS = 'https://datos.cultura.gob.ar/dataset/37305de4-3cce-4d4b-9d9a-fec3ca61d09f/resource/4207def0-2ff7-41d5-9095-d42ae8207a5d/download/museos_datosabiertos.csv'
-    URL_CSV_SALAS_DE_CINE = 'https://datos.cultura.gob.ar/dataset/37305de4-3cce-4d4b-9d9a-fec3ca61d09f/resource/392ce1a8-ef11-4776-b280-6f1c7fae16ae/download/cine.csv'
-    URL_CSV_BIBLIOTECAS_POPULARES = 'https://datos.cultura.gob.ar/dataset/37305de4-3cce-4d4b-9d9a-fec3ca61d09f/resource/01c6c048-dbeb-44e0-8efa-6944f73715d7/download/biblioteca_popular.csv'
+    URL_CSV_MUSEOS = config('URL_MUSEOS')
+    URL_CSV_SALAS_DE_CINE = config('URL_SALAS_DE_CINE')
+    URL_CSV_BIBLIOTECAS_POPULARES = config('URL_BIBLIOTECAS_POPULARES')
 
     #se descargan los archivos csv
     try:
