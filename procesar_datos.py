@@ -111,7 +111,7 @@ try:
         print("la base de datos se a actualizado con exito!")
         logging.info(current_time + 'la base de datos se a actualizado con exito!.')
 except exc.SQLAlchemyError:
-        print("Error al actualizar la tabla base de datos.")
+        print("Error al actualizar la base de datos.")
         logging.error(current_time + 'Error al actualizar la base de datos. ' )
 
 
