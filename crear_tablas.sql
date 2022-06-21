@@ -18,7 +18,7 @@ CREATE TABLE datos_salas_de_cine (
     Provincia text,
     Pantallas integer,
     Butacas integer,
-    "espacio INCAA" integer,
+    espacio_INCAA integer,
     "Fecha y hora registro" timestamp      
 );
 
