@@ -46,3 +46,7 @@ Esta proyecto corresponde al challenge de data analytics + python de https://www
    ```settings.ini```
    
    DATABASE_URL = postgresql://(USUARIO):(CONTRASEÑA)@(SERVIDOR)/(NOMBRE_DB)
+   
+8. En caso de que las url cambien en un futuro se pueden cambiar desde el archivo:
+   
+   ```settings.ini``` 
