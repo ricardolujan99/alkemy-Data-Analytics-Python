@@ -91,7 +91,7 @@ df_completo = df_completo[[
     'Código postal',
     'Número de teléfono',
     'Mail',
-    'Web',
+    'Web'
     ]]
 
 
