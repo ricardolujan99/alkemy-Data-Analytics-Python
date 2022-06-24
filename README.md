@@ -47,6 +47,6 @@ Esta proyecto corresponde al challenge de data analytics + python de https://www
    
    DATABASE_URL = postgresql://(USUARIO):(CONTRASEÑA)@(SERVIDOR)/(NOMBRE_DB)
    
-8. En caso de que las url de los archivos csv cambien en un futuro se pueden cambiar desde el archivo:
+8. En caso de que las url de los archivos csv cambien en un futuro se pueden modificar desde el archivo:
    
    ```settings.ini``` 
