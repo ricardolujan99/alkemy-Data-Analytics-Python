@@ -1,3 +1,5 @@
+#Este proyecto fue aceptado por alkemy.
+
 # alkemy-Data-Analytics-Python
 
 Esta proyecto corresponde al challenge de data analytics + python de https://www.alkemy.org/ 
