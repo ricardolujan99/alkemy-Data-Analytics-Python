@@ -1,4 +1,4 @@
-#Este proyecto fue aceptado por alkemy.
+# Este proyecto fue aceptado por alkemy.
 
 # alkemy-Data-Analytics-Python
 
